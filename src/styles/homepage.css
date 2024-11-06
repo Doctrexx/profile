@@ -1,0 +1,86 @@
+.home-container {
+  margin-top: 100px;
+  padding: 50px;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  width: 100%;
+}
+
+.text-content {
+  margin-right: 200px;
+}
+
+.about-container > img {
+  width: 300px;
+  margin-left: 20px;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid var(---secondary);
+  box-shadow: 4px 8px 6px -4px var(---quaternary);
+}
+
+.circle {
+  border: 1px solid var(---quaternary);
+  border-radius: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  opacity: 0.25;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.circle1 {
+  width: 100px;
+  height: 100px;
+}
+.circle2 {
+  width: 200px;
+  height: 200px;
+}
+.circle3 {
+  width: 300px;
+  height: 300px;
+}
+.circle5 {
+  width: 500px;
+  height: 500px;
+}
+.circle4 {
+  width: 400px;
+  height: 400px;
+}
+.circle6 {
+  width: 600px;
+  height: 600px;
+}
+.circle7 {
+  width: 700px;
+  height: 700px;
+}
+.circle8 {
+  width: 800px;
+  height: 800px;
+}
+.circle9 {
+  width: 900px;
+  height: 900px;
+}
+.circle10 {
+  width: 1000px;
+  height: 1000px;
+}
+.circle11 {
+  width: 1100px;
+  height: 1100px;
+}
+.circle12 {
+  width: 1200px;
+  height: 1200px;
+}
+.circle13 {
+  width: 1300px;
+  height: 1300px;
+}

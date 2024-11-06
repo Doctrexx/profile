@@ -1,0 +1,40 @@
+.tech-container {
+  background-color: var(---primary);
+  padding: 50px;
+  margin-top: 10px;
+}
+
+.tech-stack {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.text {
+  text-align: center;
+  align-items: center;
+}
+
+span > small {
+  text-decoration: underline;
+  padding: 5px;
+  letter-spacing: 3px;
+  color: var(---secondary);
+}
+
+.icons {
+  filter: grayscale(100%);
+  width: 3em;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 50px;
+  height: 3em;
+  border: 1px solid var(---quaternary);
+  font-size: large;
+  display: flex;
+}
+
+.icons:hover {
+  filter: grayscale(0);
+  background-color: var(---secondary);
+}

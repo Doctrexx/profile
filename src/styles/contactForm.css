@@ -1,0 +1,51 @@
+.contact-container {
+  padding: 50px;
+}
+
+.contact-form {
+  width: 280px;
+  text-align: center;
+  margin: 20px;
+}
+
+.contact-form > input {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: transparent;
+}
+
+.contact-form > input::placeholder {
+  color: white;
+}
+
+.contact-form > button {
+  margin: 5px;
+  padding: 5px;
+  margin-left: 130px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-content > h1 {
+  text-align: center;
+  width: 500px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.social > .icons {
+  width: min-content;
+  height: min-content;
+  padding: 10px;
+}

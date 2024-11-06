@@ -1,0 +1,26 @@
+.project-container {
+  /* background-color: var(---secondary); */
+  /* background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 0.16281555374592838) 50%,
+    rgba(252, 176, 69, 1) 100%
+  ); */
+  padding: 50px;
+}
+
+.project-section {
+  display: flex;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.project-card {
+  border: 1px solid #eaecef;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 20px;
+  height: auto;
+  border-radius: 10px;
+}
